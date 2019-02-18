@@ -15,3 +15,5 @@ detected repository as bassaer/travis-local
        echo -e "\033[31;1mFailed to clone from GitHub.\033[0m"
        echo -e "Checking GitHub status (https://status.github.com/api/last-message.json):"
 ```
+
+cf. https://medium.com/google-developers/how-to-run-travisci-locally-on-docker-822fc6b2db2e
