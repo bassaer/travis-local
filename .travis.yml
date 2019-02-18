@@ -4,4 +4,4 @@ branches:
     - master
 script:
     - echo 'start'
-    - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then hostname; fi'
+    - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "deploy!!"; fi'
